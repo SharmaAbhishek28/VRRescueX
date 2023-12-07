@@ -9735,6 +9735,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bean_phase3
       objectReference: {fileID: 0}
+    - target: {fileID: 7909214681562117826, guid: 0d75e8037c89eef44a9304f7d4b236da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -31163,8 +31168,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timer: 0
   growTime: 13
-  maxSize: 3
+  maxSize: 1.5
   ismaxSize: 0
+  delayTime: 40
 --- !u!1 &645132737
 GameObject:
   m_ObjectHideFlags: 0
@@ -37140,6 +37146,7 @@ MonoBehaviour:
   growTime: 13
   maxSize: 1.5
   ismaxSize: 0
+  delayTime: 25
 --- !u!1 &772412142
 GameObject:
   m_ObjectHideFlags: 0
@@ -62115,6 +62122,7 @@ MonoBehaviour:
   growTime: 13
   maxSize: 2
   ismaxSize: 0
+  delayTime: 40
 --- !u!1 &1300212226
 GameObject:
   m_ObjectHideFlags: 0
@@ -74192,17 +74200,17 @@ PrefabInstance:
     - target: {fileID: 382997140855855766, guid: b61dd8135e112164d919b73cca170bc0,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.7359266
+      value: 3.102
       objectReference: {fileID: 0}
     - target: {fileID: 382997140855855766, guid: b61dd8135e112164d919b73cca170bc0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.14148602
+      value: -1.164
       objectReference: {fileID: 0}
     - target: {fileID: 382997140855855766, guid: b61dd8135e112164d919b73cca170bc0,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.0325365
+      value: 1.197
       objectReference: {fileID: 0}
     - target: {fileID: 382997140855855766, guid: b61dd8135e112164d919b73cca170bc0,
         type: 3}
@@ -74357,7 +74365,7 @@ PrefabInstance:
     - target: {fileID: 7909214681562117826, guid: b61dd8135e112164d919b73cca170bc0,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8536135914074830003, guid: b61dd8135e112164d919b73cca170bc0,
         type: 3}
