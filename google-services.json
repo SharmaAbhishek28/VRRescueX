@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "914133098727",
+    "project_id": "cbrn-9710a",
+    "storage_bucket": "cbrn-9710a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:914133098727:android:7571bb783f6372193d8242",
+        "android_client_info": {
+          "package_name": "com.priyanshusaini.cbrn"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjCny52Vdx8NAucYhVrbB52kiqV7bLT6Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
