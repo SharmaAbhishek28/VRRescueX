@@ -124,3 +124,54 @@ public class AuthenticationManager : MonoBehaviour
         auth = null;
     }
 }
+
+
+// Unity and Firebase Authentication with Realtime Database Script
+
+// Import necessary libraries
+using UnityEngine;
+using UnityEngine.UI;
+using Firebase;
+using Firebase.Auth;
+using Firebase.Database;
+using System;
+
+public class AuthenticationManager : MonoBehaviour
+{
+    // Firebase variables
+    private FirebaseAuth auth;
+    private DatabaseReference databaseReference;
+
+    // UI elements
+    public InputField usernameInput;
+    public InputField passwordInput;
+    public InputField nameInput;
+    public InputField genderInput;
+    public InputField emailInput;
+    public InputField ageInput;
+    public Button loginButton;
+    public Button signupButton;
+
+    void Start()
+    {
+        // Initialize Firebase authentication
+        FirebaseApp.CheckAndFixDependenciesAsync().ContinueWithOnMainThread(task =>
+        {
+            FirebaseApp app = FirebaseApp.DefaultInstance;
+            auth = FirebaseAuth.DefaultInstance;
+            databaseReference = FirebaseDatabase.DefaultInstance.RootReference;
+        });
+
+        // Attach methods to UI buttons
+        loginButton.onClick.AddListener(Login);
+        signupButton.onClick.AddListener(SignUp);
+    }
+
+    // Method to handle login
+    
+    // Method to handle signup
+    void SignUp()
+    {
+        // ... (unchanged from the previous script)
+    }
+}
