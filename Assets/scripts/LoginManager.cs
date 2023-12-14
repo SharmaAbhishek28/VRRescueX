@@ -26,7 +26,7 @@ public class LoginManager : MonoBehaviour
         if (PlayerPrefs.HasKey(authTokenKey))
         {
             isLogin = true;
-            SceneManager.LoadScene("nuclear scene");
+            //SceneManager.LoadScene("nuclear scene");
         }
         else
         {
@@ -72,8 +72,8 @@ public class LoginManager : MonoBehaviour
                     statusText.text = "Login successful! " + response.username;
                     isLogin = true;
 
-                    PlayerPrefs.SetString(authTokenKey, isLogin.ToString());
-                    PlayerPrefs.Save();
+                    // PlayerPrefs.SetString(authTokenKey, isLogin.ToString());
+                    // PlayerPrefs.Save();
                     SceneManager.LoadScene("nuclear scene");
                 }
                 else
