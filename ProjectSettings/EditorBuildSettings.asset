@@ -5,19 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Menu-CBRN.unity
     guid: f64bcc70c20081049a84ddd1ceee108d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Chemicals.unity
     guid: 34d02b46da1c5e64cad2bc411292d275
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Biological.unity
     guid: c8599a5671ec0814ebad16e22fa04225
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Radiological.unity
     guid: 6fd67c4cfb5358049ab31bce7c8aa710
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Nuclear.unity
     guid: 4225ac77ced424440ae967c9d95fc53e
   - enabled: 1
