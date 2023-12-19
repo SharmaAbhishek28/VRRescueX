@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MoodyNight.unity
     guid: 43f32e150d1d97d4cae45df705a407e5
+  - enabled: 1
+    path: Assets/Scenes/Dashboard.unity
+    guid: ad067c85a5ab2724c92762b416ab7ba7
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ed72be55522c8448bae8b0d66fa21adf,
       type: 2}
