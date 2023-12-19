@@ -12,9 +12,11 @@ public class LoginManager : MonoBehaviour
     public TextMeshProUGUI statusText;
 
     private bool isLogin;
+    private string userIdKey = "userId";
     private string authTokenKey = "isLogin";
 
     private string loginEndpoint = "https://cbrn.onrender.com/api/login";
+    // private string loginEndpoint = "http://localhost:3000/api/login";
 
     void Start()
     {
@@ -23,10 +25,13 @@ public class LoginManager : MonoBehaviour
 
     void CheckIfUserLoggedIn()
     {
-        if (PlayerPrefs.HasKey(authTokenKey))
+        if (PlayerPrefs.HasKey(authTokenKey) && PlayerPrefs.HasKey(userIdKey))
         {
-            isLogin = true;
-            //SceneManager.LoadScene("nuclear scene");
+            isLogin = PlayerPrefs.GetString(authTokenKey) == "true";
+            if (isLogin)
+            {
+                SceneManager.LoadScene("Dashboard");
+            }
         }
         else
         {
@@ -45,7 +50,7 @@ public class LoginManager : MonoBehaviour
     IEnumerator Login(string username, string password)
     {
         // Prepare the login data
-        string jsonBody = "{\"name\":\"" + username + "\",\"password\":\"" + password + "\"}";
+        string jsonBody = "{\"username\":\"" + username + "\",\"password\":\"" + password + "\"}";
         byte[] bodyRaw = System.Text.Encoding.UTF8.GetBytes(jsonBody);
 
         using (UnityWebRequest www = UnityWebRequest.Put(loginEndpoint, bodyRaw))
@@ -72,9 +77,10 @@ public class LoginManager : MonoBehaviour
                     statusText.text = "Login successful! " + response.username;
                     isLogin = true;
 
-                    // PlayerPrefs.SetString(authTokenKey, isLogin.ToString());
-                    // PlayerPrefs.Save();
-                    SceneManager.LoadScene("nuclear scene");
+                    PlayerPrefs.SetString(authTokenKey, isLogin.ToString());
+                    PlayerPrefs.SetString(userIdKey, response.id);
+                    PlayerPrefs.Save();
+                    SceneManager.LoadScene("Dashboard");
                 }
                 else
                 {

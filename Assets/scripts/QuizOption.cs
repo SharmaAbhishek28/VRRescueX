@@ -16,7 +16,6 @@ public class QuizOption : MonoBehaviour
         if (optionText != null)
         {
             optionText.text = optionValue;
-            Debug.Log("optionValue: " + optionValue);
         }
     }
 
