@@ -99,29 +99,29 @@ public class QuizQuestion : MonoBehaviour
 
     IEnumerator UpdateScore(int score)
     {
-        string jsonBody = "{\"score\":" + score + ",\"training\":{\"type\":" + trainingType + ",\"moduleType\":" + moduleType + "}}";
+        string jsonBody = "{\"score\":"+score+",\"training\":{\"type\":"+trainingType+",\"moduleType\":"+moduleType+"}}";
+
         byte[] bodyRaw = System.Text.Encoding.UTF8.GetBytes(jsonBody);
 
         using (UnityWebRequest www = UnityWebRequest.Put(apiURL, bodyRaw))
         {
-            www.method = "POST";
+            www.method = "PUT";
             www.SetRequestHeader("Content-Type", "application/json");
 
-            Debug.Log("Sending Request to: " + apiURL);
 
+            Debug.Log("PUT:");
             yield return www.SendWebRequest();
+            Debug.Log("PUT:2");
 
-            Debug.Log("Response Code: " + www.responseCode); // Log the response code
+            string response = www.downloadHandler.text;
 
             if (www.isNetworkError || www.isHttpError)
             {
-                Debug.LogError("Network/HTTP Error: " + www.error);
-                Debug.LogError("Server Response: " + www.downloadHandler.text);
+                Debug.LogError(www.error);
             }
             else
             {
                 Debug.Log("Score Updated!");
-                Debug.Log("Server Response: " + www.downloadHandler.text);
             }
         }
     }
