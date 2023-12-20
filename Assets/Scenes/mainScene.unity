@@ -25473,18 +25473,18 @@ MonoBehaviour:
   m_PlayAudioClipOnHoverCanceled: 0
   m_AudioClipForOnHoverCanceled: {fileID: 0}
   m_AllowHoverAudioWhileSelecting: 1
-  m_PlayHapticsOnSelectEntered: 0
-  m_HapticSelectEnterIntensity: 0
-  m_HapticSelectEnterDuration: 0
+  m_PlayHapticsOnSelectEntered: 1
+  m_HapticSelectEnterIntensity: 0.1
+  m_HapticSelectEnterDuration: 0.08
   m_PlayHapticsOnSelectExited: 0
   m_HapticSelectExitIntensity: 0
   m_HapticSelectExitDuration: 0
   m_PlayHapticsOnSelectCanceled: 0
   m_HapticSelectCancelIntensity: 0
   m_HapticSelectCancelDuration: 0
-  m_PlayHapticsOnHoverEntered: 0
-  m_HapticHoverEnterIntensity: 0
-  m_HapticHoverEnterDuration: 0
+  m_PlayHapticsOnHoverEntered: 1
+  m_HapticHoverEnterIntensity: 0.05
+  m_HapticHoverEnterDuration: 0.04
   m_PlayHapticsOnHoverExited: 0
   m_HapticHoverExitIntensity: 0
   m_HapticHoverExitDuration: 0
@@ -28349,7 +28349,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 769cf4fc5c4f9fe4b8ce574fe85bdf1b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -118.46
+      value: -113.52
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 769cf4fc5c4f9fe4b8ce574fe85bdf1b,
         type: 3}
@@ -28359,7 +28359,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 769cf4fc5c4f9fe4b8ce574fe85bdf1b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 89.95
+      value: 81.8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 769cf4fc5c4f9fe4b8ce574fe85bdf1b,
         type: 3}
@@ -28460,10 +28460,6 @@ PrefabInstance:
         type: 3}
       insertIndex: 0
       addedObject: {fileID: 2130384763}
-    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 769cf4fc5c4f9fe4b8ce574fe85bdf1b,
-        type: 3}
-      insertIndex: 1
-      addedObject: {fileID: 1430152033}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 769cf4fc5c4f9fe4b8ce574fe85bdf1b,
         type: 3}
       insertIndex: -1
@@ -29464,12 +29460,12 @@ PrefabInstance:
     - target: {fileID: 198020576693072572, guid: 3d19250bdd4e0df4c8da855e85a8d70b,
         type: 3}
       propertyPath: InitialModule.startSpeed.scalar
-      value: 45
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 198020576693072572, guid: 3d19250bdd4e0df4c8da855e85a8d70b,
         type: 3}
       propertyPath: InitialModule.startSize.minScalar
-      value: 0.1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 198020576693072572, guid: 3d19250bdd4e0df4c8da855e85a8d70b,
         type: 3}
@@ -32787,18 +32783,18 @@ MonoBehaviour:
   m_PlayAudioClipOnHoverCanceled: 0
   m_AudioClipForOnHoverCanceled: {fileID: 0}
   m_AllowHoverAudioWhileSelecting: 1
-  m_PlayHapticsOnSelectEntered: 0
-  m_HapticSelectEnterIntensity: 0
-  m_HapticSelectEnterDuration: 0
+  m_PlayHapticsOnSelectEntered: 1
+  m_HapticSelectEnterIntensity: 0.1
+  m_HapticSelectEnterDuration: 0.08
   m_PlayHapticsOnSelectExited: 0
   m_HapticSelectExitIntensity: 0
   m_HapticSelectExitDuration: 0
   m_PlayHapticsOnSelectCanceled: 0
   m_HapticSelectCancelIntensity: 0
   m_HapticSelectCancelDuration: 0
-  m_PlayHapticsOnHoverEntered: 0
-  m_HapticHoverEnterIntensity: 0
-  m_HapticHoverEnterDuration: 0
+  m_PlayHapticsOnHoverEntered: 1
+  m_HapticHoverEnterIntensity: 0.05
+  m_HapticHoverEnterDuration: 0.04
   m_PlayHapticsOnHoverExited: 0
   m_HapticHoverExitIntensity: 0
   m_HapticHoverExitDuration: 0
@@ -38145,18 +38141,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1430152032}
-  m_LocalRotation: {x: 0, y: 0, z: 0.0075746127, w: 0.99997133}
-  m_LocalPosition: {x: 0, y: 0, z: -132.4}
-  m_LocalScale: {x: 0.043059226, y: 0.043059226, z: 0.043059226}
+  m_LocalRotation: {x: 0.49979356, y: -0.50020635, z: -0.49979356, w: 0.50020635}
+  m_LocalPosition: {x: 0, y: 0, z: 0.02567}
+  m_LocalScale: {x: 0.00005203617, y: 0.00003569234, z: 0.00012574009}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1128462312}
   - {fileID: 996360306}
-  m_Father: {fileID: 1122895888}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.868}
+  m_Father: {fileID: 1741832237}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.047}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1557.43, y: 47.79}
+  m_AnchoredPosition: {x: -0.029541016, y: -0.00015}
   m_SizeDelta: {x: 250, y: 158.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1430152034
@@ -44377,6 +44373,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1725807282}
   m_CullTransparentMesh: 1
+--- !u!4 &1741832237 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: bc05636e98e9b7647a5ba1383f3895a1,
+    type: 3}
+  m_PrefabInstance: {fileID: 1830103804}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1750381519
 GameObject:
   m_ObjectHideFlags: 0
@@ -46539,7 +46541,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: bc05636e98e9b7647a5ba1383f3895a1,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1430152033}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bc05636e98e9b7647a5ba1383f3895a1, type: 3}
 --- !u!1 &1834367129
