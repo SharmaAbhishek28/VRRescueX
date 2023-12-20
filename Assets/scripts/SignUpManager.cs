@@ -15,7 +15,8 @@ public class SignupManager : MonoBehaviour
     public TextMeshProUGUI statusText;
 
     private bool isLogin;
-    private string authTokenKey="isLogin";
+    private string userIdKey = "userId";
+    private string authTokenKey = "isLogin";
 
     private string signupEndpoint = "https://cbrn.onrender.com/api/signup";
 
@@ -26,10 +27,13 @@ public class SignupManager : MonoBehaviour
 
     void CheckIfUserLoggedIn()
     {
-        if (PlayerPrefs.HasKey(authTokenKey))
+        if (PlayerPrefs.HasKey(authTokenKey) && PlayerPrefs.HasKey(userIdKey))
         {
-            isLogin = true;
-            SceneManager.LoadScene("nuclear scene");
+            isLogin = PlayerPrefs.GetString(authTokenKey) == "true";
+            if (isLogin)
+            {
+                SceneManager.LoadScene("Dashboard");
+            }
         }
         else
         {
@@ -96,14 +100,14 @@ public class SignupManager : MonoBehaviour
             {
                 int statusCode = (int)www.responseCode;
 
-                if (statusCode==200||statusCode==201)
+                if (statusCode == 200 || statusCode == 201)
                 {
-                    statusText.text = "Signup successful! "+response.username;
+                    statusText.text = "Signup successful! " + response.username;
                     isLogin = true;
 
-                    PlayerPrefs.SetString(authTokenKey,isLogin.ToString());
+                    PlayerPrefs.SetString(authTokenKey, isLogin.ToString());
                     PlayerPrefs.Save();
-                    SceneManager.LoadScene("nuclear scene");
+                    SceneManager.LoadScene("Dashboard");
                 }
                 else
                 {
@@ -114,7 +118,7 @@ public class SignupManager : MonoBehaviour
         }
     }
 
-    
+
 
     [System.Serializable]
     public class SignupResponse
