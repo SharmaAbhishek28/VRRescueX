@@ -3,7 +3,17 @@ guid: 55c78048f5fb2a74ebab727d501fa510
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Car_Paint_-_Matte_Dark_Gray
+    second: {fileID: 2100000, guid: 0aedd5dbab24b51429c6381d6624600a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_-_Stainless_Steel_Polished
+    second: {fileID: 2100000, guid: 021bd90abb4d4c3428aeb70bfe0a3e8b, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
