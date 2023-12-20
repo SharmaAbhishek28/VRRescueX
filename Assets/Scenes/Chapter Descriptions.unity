@@ -7134,7 +7134,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Chemical
+  m_text: Training
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -12060,7 +12060,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &561303006
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12756,7 +12756,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &602882746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18341,8 +18341,8 @@ RectTransform:
   m_GameObject: {fileID: 1032049659}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.6, y: 1.6, z: 1.6}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1809932571}
   - {fileID: 1422374785}
@@ -18350,7 +18350,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -60, y: -9.2}
+  m_AnchoredPosition: {x: -40.2, y: -9.2}
   m_SizeDelta: {x: 31, y: 31}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1032049661
@@ -18591,7 +18591,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Nuclear
+  m_text: Evaluation
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -19662,14 +19662,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: A nuclear disaster, in the context of CBRN (Chemical, Biological, Radiological,
-    and Nuclear) threats, refers to a catastrophic event resulting from the uncontrolled
-    release of radioactive materials, often stemming from nuclear power plant accidents
-    or the detonation of nuclear weapons. These disasters pose grave risks to human
-    health and the environment due to the ionizing radiation emitted, which can cause
-    acute radiation sickness, long-term health issues, and environmental contamination.
-    Effective emergency response, evacuation measures, and mitigation strategies
-    are critical in minimizing the devastating consequences of nuclear disasters.
+  m_text: Welcome to the Evaluation Mode of the CBRN Response Simulation. This mode
+    focuses on assessing your knowledge through quizzes and providing valuable feedback.
+    Let's test your understanding of CBRN emergency response.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -19803,7 +19798,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6f667511f537cfd4c9180e2a4f95b92b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ae56ac47c88b72e46b590d9296da2041, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -22889,7 +22884,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 19.441004, w: 0}
+  m_margin: {x: 0, y: 0, z: -0.25328636, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -23232,7 +23227,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 082f09f84996ceb45b78aebf8f768cef, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 58903cfc8623c80429950232fc6e6462, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -26133,7 +26128,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6f667511f537cfd4c9180e2a4f95b92b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ae56ac47c88b72e46b590d9296da2041, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -28460,7 +28455,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 082f09f84996ceb45b78aebf8f768cef, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 58903cfc8623c80429950232fc6e6462, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -28878,7 +28873,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Nuclear
+  m_text: 'Evaluation
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -29667,7 +29664,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Chemical
+  m_text: Trainning
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -30816,8 +30813,8 @@ RectTransform:
   m_GameObject: {fileID: 1909777970}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.6, y: 1.6, z: 1.6}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1767414026}
   - {fileID: 1611418064}
@@ -30825,7 +30822,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 60, y: -9.200001}
+  m_AnchoredPosition: {x: 44.1, y: -9.200001}
   m_SizeDelta: {x: 31, y: 31}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1909777972
@@ -32047,13 +32044,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Chemical (C) in the context of CBRN (Chemical, Biological, Radiological,
-    and Nuclear) threats and hazards refers to the use of chemicals or chemical agents
-    as weapons. Chemical warfare agents are substances specifically designed to harm
-    or kill humans, often by disrupting bodily functions or causing severe injuries.
-    These agents can be released in various forms, including gases, liquids, or solids,
-    and they can have both immediate and long-term effects on individuals and the
-    environment.
+  m_text: 'Welcome to the Training Mode of the CBRN (Chemical, Biological, Radiological,
+    and Nuclear) Response Simulation. This mode is designed to provide hands-on activities,
+    allowing you to build practical skills in handling CBRN emergencies. Let''s dive
+    into the immersive training experience.
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -32895,7 +32891,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1983934684
 RectTransform:
   m_ObjectHideFlags: 0
@@ -33037,7 +33033,7 @@ GameObject:
   - component: {fileID: 1996573383}
   - component: {fileID: 1996573382}
   m_Layer: 5
-  m_Name: Canvas (4)
+  m_Name: Evaluation_description
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
