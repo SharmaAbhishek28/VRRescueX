@@ -3,10 +3,13 @@ using UnityEngine;
 public class AlertsoundManager : MonoBehaviour
 {
     private AudioSource audioSource;
+    public bool loop = true;
 
     private void Start()
     {
         audioSource = GetComponent<AudioSource>();
+        if (!loop)
+        audioSource.loop = false;
         // Component is initially inactive, so we don't play the alert sound here.
     }
 
