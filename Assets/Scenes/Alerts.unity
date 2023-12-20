@@ -4082,6 +4082,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c31454c18180a654b933481c3b22ec9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hapticFeedbackScript: {fileID: 0}
   loop: 1
 --- !u!1 &693447600
 GameObject:
@@ -4258,7 +4259,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &736954358
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4306,7 +4307,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 736954357}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
   m_Name: 
@@ -4470,6 +4471,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c31454c18180a654b933481c3b22ec9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hapticFeedbackScript: {fileID: 0}
   loop: 1
 --- !u!1 &754482604
 GameObject:
@@ -9127,7 +9129,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c31454c18180a654b933481c3b22ec9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loop: 0
+  hapticFeedbackScript: {fileID: 0}
+  loop: 1
 --- !u!82 &1704210628
 AudioSource:
   m_ObjectHideFlags: 0

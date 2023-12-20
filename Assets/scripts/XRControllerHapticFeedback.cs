@@ -8,10 +8,10 @@ public class XRControllerHapticFeedback : MonoBehaviour
     private InputDevice leftInputDevice;
     private InputDevice rightInputDevice;
 
-    public UnityEngine.UI.Slider leftIntensitySlider;
-    public UnityEngine.UI.Slider leftDurationSlider;
-    public UnityEngine.UI.Slider rightIntensitySlider;
-    public UnityEngine.UI.Slider rightDurationSlider;
+    public float leftIntensity;
+    public float leftDuration;
+    public float rightIntensity;
+    public float rightDuration;
 
     private bool isLeftFeedbackActive = false;
     private bool isRightFeedbackActive = false;
@@ -27,8 +27,6 @@ public class XRControllerHapticFeedback : MonoBehaviour
         // Check for haptic feedback activation for left hand
         if (isLeftFeedbackActive)
         {
-            float leftIntensity = leftIntensitySlider.value;
-            float leftDuration = leftDurationSlider.value;
 
             StartHapticFeedback(leftInputDevice, leftIntensity, leftDuration);
         }
@@ -40,8 +38,6 @@ public class XRControllerHapticFeedback : MonoBehaviour
         // Check for haptic feedback activation for right hand
         if (isRightFeedbackActive)
         {
-            float rightIntensity = rightIntensitySlider.value;
-            float rightDuration = rightDurationSlider.value;
 
             StartHapticFeedback(rightInputDevice, rightIntensity, rightDuration);
         }
