@@ -215,6 +215,56 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &148388836
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 148388838}
+  - component: {fileID: 148388837}
+  m_Layer: 0
+  m_Name: Dressupcontroller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &148388837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148388836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d3ce22493f2e6c4bbe50dcb80995046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  suitPieces:
+  - {fileID: 1948357906}
+  - {fileID: 1948357907}
+  - {fileID: 1948357908}
+  - {fileID: 785790956}
+  - {fileID: 1948357909}
+--- !u!4 &148388838
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148388836}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -34.199608, y: 5.331178, z: -32.98071}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &785790955
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -283,6 +333,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ddc6a0fc79c12594ea375218a3eba6a8, type: 3}
+--- !u!1 &785790956 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ddc6a0fc79c12594ea375218a3eba6a8,
+    type: 3}
+  m_PrefabInstance: {fileID: 785790955}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &878979173
 GameObject:
   m_ObjectHideFlags: 0
@@ -718,6 +774,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5334588128262200002, guid: 4f7b18649b3e2eb419df448706337a5d,
+        type: 3}
+      propertyPath: m_Name
+      value: gas mask grab
+      objectReference: {fileID: 0}
+    - target: {fileID: 6401178535677462018, guid: 4f7b18649b3e2eb419df448706337a5d,
+        type: 3}
+      propertyPath: m_Name
+      value: GlovesProt
+      objectReference: {fileID: 0}
     - target: {fileID: 6950132779548007504, guid: 4f7b18649b3e2eb419df448706337a5d,
         type: 3}
       propertyPath: m_Name
@@ -773,15 +839,85 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7929099319020698566, guid: 4f7b18649b3e2eb419df448706337a5d,
+        type: 3}
+      propertyPath: m_Name
+      value: 1_Hazmat_Suit
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1927374364296175273, guid: 4f7b18649b3e2eb419df448706337a5d, type: 3}
     - {fileID: 1574715600124099004, guid: 4f7b18649b3e2eb419df448706337a5d, type: 3}
     - {fileID: 4528513602637217213, guid: 4f7b18649b3e2eb419df448706337a5d, type: 3}
     - {fileID: 5374936884488689811, guid: 4f7b18649b3e2eb419df448706337a5d, type: 3}
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 3921439829259933220, guid: 4f7b18649b3e2eb419df448706337a5d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2115387604}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4f7b18649b3e2eb419df448706337a5d, type: 3}
+--- !u!4 &1948357905 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3921439829259933220, guid: 4f7b18649b3e2eb419df448706337a5d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1948357904}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1948357906 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2876950700670159189, guid: 4f7b18649b3e2eb419df448706337a5d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1948357904}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1948357907 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5334588128262200002, guid: 4f7b18649b3e2eb419df448706337a5d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1948357904}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1948357908 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7929099319020698566, guid: 4f7b18649b3e2eb419df448706337a5d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1948357904}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1948357909 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6401178535677462018, guid: 4f7b18649b3e2eb419df448706337a5d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1948357904}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2115387603
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2115387604}
+  m_Layer: 0
+  m_Name: cottongloves
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2115387604
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115387603}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1948357905}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -789,8 +925,9 @@ SceneRoots:
   - {fileID: 135647362}
   - {fileID: 878979175}
   - {fileID: 1573784212}
-  - {fileID: 1948357904}
   - {fileID: 1295278184}
   - {fileID: 785790955}
   - {fileID: 1937719091}
   - {fileID: 1487679518}
+  - {fileID: 148388838}
+  - {fileID: 1948357904}
