@@ -15,9 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/nuclear scene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/Scenes/MoodyNight.unity
-    guid: 43f32e150d1d97d4cae45df705a407e5
-  - enabled: 1
     path: Assets/Scenes/Dashboard.unity
     guid: ad067c85a5ab2724c92762b416ab7ba7
   - enabled: 1
@@ -35,6 +32,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/quiz scene.unity
     guid: 2a4490db7d8560544b9bf30972868a60
+  - enabled: 1
+    path: Assets/Scenes/1Chemical.unity
+    guid: dd181aa1ce464a043a5d240aac480496
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ed72be55522c8448bae8b0d66fa21adf,
       type: 2}
