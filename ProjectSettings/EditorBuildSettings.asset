@@ -35,6 +35,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/1Chemical.unity
     guid: dd181aa1ce464a043a5d240aac480496
+  - enabled: 1
+    path: Assets/Scenes/Inside the room.unity
+    guid: cc2a42b7220a58049a358ef9deb378df
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ed72be55522c8448bae8b0d66fa21adf,
       type: 2}
