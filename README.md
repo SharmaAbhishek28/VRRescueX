@@ -1,7 +1,7 @@
 # VRRescueX - VR-Based Training Simulator for NDRF Jawans
 
 ## PPT 
-Link: https://drive.google.com/file/d/1mPP7M6jrnqGdtExcvAOeTIcSsk1AY2__/view?usp=sharing
+Link: [https://drive.google.com/file/d/1mPP7M6jrnqGdtExcvAOeTIcSsk1AY2__/view?usp=sharing](https://drive.google.com/drive/folders/1jE_eImF_WCM0aYExqFkLlHlDBLQ5WZTw?usp=sharing)
 
 ## Overview
 
